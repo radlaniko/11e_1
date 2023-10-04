@@ -1,0 +1,99 @@
+1. A felhasználótól bekér egy számot, és eldönti, hogy prím szám-e.
+
+2.Kérjen be a felhasználótól egy számot, és írja bele az összes osztóját egy listába.
+
+3. Kérjen be a felh. legalább 6 hosszú szót, amennyiben ez rövidebb, egészítse ki * karakterekkel, majd irassa ki a szó - elsõ két karakterét,
+- utolsó két karakterét
+- középsõ két karakterét páros hossz, középsõ karakterét páratlan hossz esetén. 
+
+4. Kérjen be a felhasználótól egy szót, amit megfordítva ír ki.
+
+5. a) Írassa ki a következõ alakzatot:
+*
+**
+***
+****
+5_alakzat_a.py
+
+b) 
+
+*
+**
+***
+****
+***
+**
+*
+
+5_alakzat_b.py
+
+c)             *
+               **
+              ***
+             ****
+              ***
+               ** 
+                *
+
+
+6. Fûzze össze egy listába a month és day listák elemeit úgy, hogy a hónap neve után a megfelelõ napok száma kerüljön.
+ 
+month=["jan","febr","march","apr","may","jun","july","aug","szept","okt","nov","dec" ]
+day=[31,29,31,30,31,30,31,31,30,31,30,31]
+
+month=["jan",31,"febr",29,"march",31,"apr",30,"may",31,"jun","30","july","31","aug","31","szept","30","okt","31","nov","30","dec","31" ]
+
+7. UTF8 ASCII átalakító: Írjon programot, mely a felhasználótól bekér egy 
+szöveget, és az ékezetes betûket kicseréli az ékezet nélküli megfelelõ karakterre.  
+Pl.: á->a, é->e, ö,õ,ó->o, ú,ü,û->u,í->i
+
+EGYSZERÛ: Karakter csere: a felhasználótól bekér egy szöveget, és az 'a' betût kicseréli '*' 
+karakterre. 
+
+8. a) Számítsa ki két adott, egy napon belüli idõpont között eltelt idõt. 
+Az idõpontokat és az eredményt is óra, perc alakban adjuk meg. [hh:mm]
+
+b)Számítsa ki két adott, egy napon belüli idõpont között eltelt idõt. 
+Az idõpontokat és az eredményt is óra, perc, másodperc alakban adjuk meg. [hh:mm:ss]
+
+
+Függvénnyel
+9. a) Adott egy pénzösszeg. Határozzuk meg, milyen bankjegyek szükségesek a kifizetéséhez.
+ Címletek: 5000,1000,500,10,1. A lehetõ legkevesebb címletbõl álljon a kifizetés.
+
+b) A címletek tetszõlegesen módosíthatók legyenek a kódban.
+
+10. Számítsa ki két ugyanabban az évben lévõ nap között eltelt napok számát. 
+Az év nem szökõév.  [hh.nn]
+
+11. Írjon egy Decimális bináris konvertálót. A bekért decimális számnak visszaadja a 
+bináris alakját.
+
+12. Kérjen be a felhasználótól egy egész számot, és határozza meg ettõl a számtól kisebb összes prímszámot.
+Használja az Eratosztenészi szita algoritmusát.
+
+
+13. Kiírja a számot betûvel
+
+File mûveletek
+14. Véletlenszerûen húz francia kártyát. Kilépés n vagy N. A húzásokat kiírja az eredmeny.txt fileba.
+
+15. Írjon programot, mely a szamok.txt fileból beolvassa a számokat, majd a primtenyezos.txt fileba kiírja a számokat és a prímtényezõs felbontásukat.
+
+16. Írjon programot, mely a lkktszamok.txt fileból beolvassa a számokat, majd a lkkt.txt fileba kiírja a számokat és a legkisebb közös többszörösüket.
+
+17. Egy robotot az E (észak), K (kelet), N (nyugat), D (dél) karakterekkel irányítanak. 
+A kódok az iranyitas.txt fileban vannak eltárolva. Rövidítse le az útvonalát és írja ki 
+az iranyitas_rovid.txt fileba az új útvonalakat.
+
+18. Titkos írás
+A code.txt file tartalmazza a kódtáblázatot, míg a szoveg.txt a szöveget. Készítse el a kódolását a szövegnek és írja ki a kódolt szöveget a kodolt.txt fileba.
+
+19. Tömörítõ 
+Adott egy fileban lévõ sztringsorozat. Tömörítse a a file tartalmát a következõ szabály szerint:
+Majd írja ki a file-t.
+
+20. Lapszabászat. Kiszámolja a program, hogy a beadott méretû lapokat mennyi fix méretû lapból tudja 
+kivágni úgy, hogy minimális legyen a veszteség.
+
+
