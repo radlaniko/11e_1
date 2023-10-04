@@ -1,14 +1,14 @@
-1. A felhasználótól bekér egy számot, és eldönti, hogy prím szám-e.
+1. A felhasznï¿½lï¿½tï¿½l bekï¿½r egy szï¿½mot, ï¿½s eldï¿½nti, hogy prï¿½m szï¿½m-e.
 
-2.Kérjen be a felhasználótól egy számot, és írja bele az összes osztóját egy listába.
+2.Kï¿½rjen be a felhasznï¿½lï¿½tï¿½l egy szï¿½mot, ï¿½s ï¿½rja bele az ï¿½sszes osztï¿½jï¿½t egy listï¿½ba.
 
-3. Kérjen be a felh. legalább 6 hosszú szót, amennyiben ez rövidebb, egészítse ki * karakterekkel, majd irassa ki a szó - elsõ két karakterét,
-- utolsó két karakterét
-- középsõ két karakterét páros hossz, középsõ karakterét páratlan hossz esetén. 
+3. Kï¿½rjen be a felh. legalï¿½bb 6 hosszï¿½ szï¿½t, amennyiben ez rï¿½videbb, egï¿½szï¿½tse ki * karakterekkel, majd irassa ki a szï¿½ - elsï¿½ kï¿½t karakterï¿½t,
+- utolsï¿½ kï¿½t karakterï¿½t
+- kï¿½zï¿½psï¿½ kï¿½t karakterï¿½t pï¿½ros hossz, kï¿½zï¿½psï¿½ karakterï¿½t pï¿½ratlan hossz esetï¿½n. 
 
-4. Kérjen be a felhasználótól egy szót, amit megfordítva ír ki.
+4. Kï¿½rjen be a felhasznï¿½lï¿½tï¿½l egy szï¿½t, amit megfordï¿½tva ï¿½r ki.
 
-5. a) Írassa ki a következõ alakzatot:
+5. a) ï¿½rassa ki a kï¿½vetkezï¿½ alakzatot:
 *
 **
 ***
@@ -36,64 +36,65 @@ c)             *
                 *
 
 
-6. Fûzze össze egy listába a month és day listák elemeit úgy, hogy a hónap neve után a megfelelõ napok száma kerüljön.
+6. Fï¿½zze ï¿½ssze egy listï¿½ba a month ï¿½s day listï¿½k elemeit ï¿½gy, hogy a hï¿½nap neve utï¿½n a megfelelï¿½ napok szï¿½ma kerï¿½ljï¿½n.
  
 month=["jan","febr","march","apr","may","jun","july","aug","szept","okt","nov","dec" ]
 day=[31,29,31,30,31,30,31,31,30,31,30,31]
 
 month=["jan",31,"febr",29,"march",31,"apr",30,"may",31,"jun","30","july","31","aug","31","szept","30","okt","31","nov","30","dec","31" ]
 
-7. UTF8 ASCII átalakító: Írjon programot, mely a felhasználótól bekér egy 
-szöveget, és az ékezetes betûket kicseréli az ékezet nélküli megfelelõ karakterre.  
-Pl.: á->a, é->e, ö,õ,ó->o, ú,ü,û->u,í->i
+7. UTF8 ASCII ï¿½talakï¿½tï¿½: ï¿½rjon programot, mely a felhasznï¿½lï¿½tï¿½l bekï¿½r egy 
+szï¿½veget, ï¿½s az ï¿½kezetes betï¿½ket kicserï¿½li az ï¿½kezet nï¿½lkï¿½li megfelelï¿½ karakterre.  
+Pl.: ï¿½->a, ï¿½->e, ï¿½,ï¿½,ï¿½->o, ï¿½,ï¿½,ï¿½->u,ï¿½->i
 
-EGYSZERÛ: Karakter csere: a felhasználótól bekér egy szöveget, és az 'a' betût kicseréli '*' 
+EGYSZERï¿½: Karakter csere: a felhasznï¿½lï¿½tï¿½l bekï¿½r egy szï¿½veget, ï¿½s az 'a' betï¿½t kicserï¿½li '*' 
 karakterre. 
 
-8. a) Számítsa ki két adott, egy napon belüli idõpont között eltelt idõt. 
-Az idõpontokat és az eredményt is óra, perc alakban adjuk meg. [hh:mm]
+8. a) Szï¿½mï¿½tsa ki kï¿½t adott, egy napon belï¿½li idï¿½pont kï¿½zï¿½tt eltelt idï¿½t. 
+Az idï¿½pontokat ï¿½s az eredmï¿½nyt is ï¿½ra, perc alakban adjuk meg. [hh:mm]
 
-b)Számítsa ki két adott, egy napon belüli idõpont között eltelt idõt. 
-Az idõpontokat és az eredményt is óra, perc, másodperc alakban adjuk meg. [hh:mm:ss]
-
-
-Függvénnyel
-9. a) Adott egy pénzösszeg. Határozzuk meg, milyen bankjegyek szükségesek a kifizetéséhez.
- Címletek: 5000,1000,500,10,1. A lehetõ legkevesebb címletbõl álljon a kifizetés.
-
-b) A címletek tetszõlegesen módosíthatók legyenek a kódban.
-
-10. Számítsa ki két ugyanabban az évben lévõ nap között eltelt napok számát. 
-Az év nem szökõév.  [hh.nn]
-
-11. Írjon egy Decimális bináris konvertálót. A bekért decimális számnak visszaadja a 
-bináris alakját.
-
-12. Kérjen be a felhasználótól egy egész számot, és határozza meg ettõl a számtól kisebb összes prímszámot.
-Használja az Eratosztenészi szita algoritmusát.
+b)Szï¿½mï¿½tsa ki kï¿½t adott, egy napon belï¿½li idï¿½pont kï¿½zï¿½tt eltelt idï¿½t. 
+Az idï¿½pontokat ï¿½s az eredmï¿½nyt is ï¿½ra, perc, mï¿½sodperc alakban adjuk meg. [hh:mm:ss]
 
 
-13. Kiírja a számot betûvel
+Fï¿½ggvï¿½nnyel
+9. a) Adott egy pï¿½nzï¿½sszeg. Hatï¿½rozzuk meg, milyen bankjegyek szï¿½ksï¿½gesek a kifizetï¿½sï¿½hez.
+ Cï¿½mletek: 5000,1000,500,10,1. A lehetï¿½ legkevesebb cï¿½mletbï¿½l ï¿½lljon a kifizetï¿½s.
 
-File mûveletek
-14. Véletlenszerûen húz francia kártyát. Kilépés n vagy N. A húzásokat kiírja az eredmeny.txt fileba.
+b) A cï¿½mletek tetszï¿½legesen mï¿½dosï¿½thatï¿½k legyenek a kï¿½dban.
 
-15. Írjon programot, mely a szamok.txt fileból beolvassa a számokat, majd a primtenyezos.txt fileba kiírja a számokat és a prímtényezõs felbontásukat.
+10. Szï¿½mï¿½tsa ki kï¿½t ugyanabban az ï¿½vben lï¿½vï¿½ nap kï¿½zï¿½tt eltelt napok szï¿½mï¿½t. 
+Az ï¿½v nem szï¿½kï¿½ï¿½v.  [hh.nn]
 
-16. Írjon programot, mely a lkktszamok.txt fileból beolvassa a számokat, majd a lkkt.txt fileba kiírja a számokat és a legkisebb közös többszörösüket.
+11. ï¿½rjon egy Decimï¿½lis binï¿½ris konvertï¿½lï¿½t. A bekï¿½rt decimï¿½lis szï¿½mnak visszaadja a 
+binï¿½ris alakjï¿½t.
 
-17. Egy robotot az E (észak), K (kelet), N (nyugat), D (dél) karakterekkel irányítanak. 
-A kódok az iranyitas.txt fileban vannak eltárolva. Rövidítse le az útvonalát és írja ki 
-az iranyitas_rovid.txt fileba az új útvonalakat.
+12. Kï¿½rjen be a felhasznï¿½lï¿½tï¿½l egy egï¿½sz szï¿½mot, ï¿½s hatï¿½rozza meg ettï¿½l a szï¿½mtï¿½l kisebb ï¿½sszes prï¿½mszï¿½mot.
+Hasznï¿½lja az Eratosztenï¿½szi szita algoritmusï¿½t.
 
-18. Titkos írás
-A code.txt file tartalmazza a kódtáblázatot, míg a szoveg.txt a szöveget. Készítse el a kódolását a szövegnek és írja ki a kódolt szöveget a kodolt.txt fileba.
 
-19. Tömörítõ 
-Adott egy fileban lévõ sztringsorozat. Tömörítse a a file tartalmát a következõ szabály szerint:
-Majd írja ki a file-t.
+13. Kiï¿½rja a szï¿½mot betï¿½vel
 
-20. Lapszabászat. Kiszámolja a program, hogy a beadott méretû lapokat mennyi fix méretû lapból tudja 
-kivágni úgy, hogy minimális legyen a veszteség.
+File mï¿½veletek
+14. Vï¿½letlenszerï¿½en hï¿½z francia kï¿½rtyï¿½t. Kilï¿½pï¿½s n vagy N. A hï¿½zï¿½sokat kiï¿½rja az eredmeny.txt fileba.
+
+15. ï¿½rjon programot, mely a szamok.txt filebï¿½l beolvassa a szï¿½mokat, majd a primtenyezos.txt fileba kiï¿½rja a szï¿½mokat ï¿½s a prï¿½mtï¿½nyezï¿½s felbontï¿½sukat.
+
+16. ï¿½rjon programot, mely a lkktszamok.txt filebï¿½l beolvassa a szï¿½mokat, majd a lkkt.txt fileba kiï¿½rja a szï¿½mokat ï¿½s a legkisebb kï¿½zï¿½s tï¿½bbszï¿½rï¿½sï¿½ket.
+
+17. Egy robotot az E (ï¿½szak), K (kelet), N (nyugat), D (dï¿½l) karakterekkel irï¿½nyï¿½tanak. 
+A kï¿½dok az iranyitas.txt fileban vannak eltï¿½rolva. Rï¿½vidï¿½tse le az ï¿½tvonalï¿½t ï¿½s ï¿½rja ki 
+az iranyitas_rovid.txt fileba az ï¿½j ï¿½tvonalakat.
+
+18. Titkos ï¿½rï¿½s
+A code.txt file tartalmazza a kï¿½dtï¿½blï¿½zatot, mï¿½g a szoveg.txt a szï¿½veget. Kï¿½szï¿½tse el a kï¿½dolï¿½sï¿½t a szï¿½vegnek ï¿½s ï¿½rja ki a kï¿½dolt szï¿½veget a kodolt.txt fileba.
+
+19. Tï¿½mï¿½rï¿½tï¿½ 
+Adott egy fileban lï¿½vï¿½ sztringsorozat. Tï¿½mï¿½rï¿½tse a a file tartalmï¿½t a kï¿½vetkezï¿½ szabï¿½ly szerint:
+Majd ï¿½rja ki a file-t.
+
+20. Lapszabï¿½szat. Kiszï¿½molja a program, hogy a beadott mï¿½retï¿½ lapokat mennyi fix mï¿½retï¿½ lapbï¿½l tudja 
+kivï¿½gni ï¿½gy, hogy minimï¿½lis legyen a vesztesï¿½g.
+
 
 
