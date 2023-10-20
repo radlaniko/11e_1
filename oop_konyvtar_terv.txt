@@ -1,0 +1,31 @@
+Könyvtár nyilvántartó szoftver
+könyvtárak könyveinek nyilvántartására
+
+Szoftveres megvalósítás:
+
+
+Konyv osztály
+
+Metódusai: __init__(self)
+	filldata_konyv(self)
+
+
+Konyvtar(Konyv) osztaly	
+place lista  - könyvtárak és címük
+books lista - könyvek adatai(cím, szerzõ, ISBN, db)
+printdata sor - kiírási adatok megnevezése
+
+Metódusai: add_dict(self) -  új könyvtár felvétele
+	__init__(self)  - a printdata sor feltöltése, könyvtár létrehozása
+	new_book(self) - új könyv felvétele. Ha a könyvtár nem létezik, azt is felveszi az adatbázisba
+	search_book(self, book_name)  - könyv keresése, adatainak kiírása
+	del_book(self, book_name) - könyv törlése
+	list_books(self)  - könyvek listázása
+
+Menübõl kiválasztható legyen a mûvelet.
+n - új könyv felvétele,
+ s - könyv keresése,
+ d - könyv törlése
+l - könyvek listázása
+	
+
