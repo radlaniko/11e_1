@@ -1,0 +1,113 @@
+Egyszerű változóban egy értéket tárolunk.
+
+Összetett adatszerkezet (lista, sor, szótár): 
+egy változó névhez több adat (ezek lehetnek különböző típusúak) tartozik.
+
+A függvények szolgálnak arra, hogy zárt programozási egységeket hozzunk
+létre, melyeket akár hol, akár hányszor meghívhatunk.
+
+A függvények a paraméter listájukon keresztül kapják meg azokat 
+az adatokat, amelyeken valamilyen műveletet kell végrehajtaniuk.
+Nincs semmilyen rögzített kapcsolat közöttük.
+
+Objektumok: olyan összetett adatszerkezetek, amelyekben nemcsak az 
+adatokat rendelem hozzá a változóhoz, hanem az adatokon elvégezhető 
+műveleteket is (amelyeket egy függvényben írok meg).
+Ez az egységbe zárás: encapsulation.
+
+Osztály: gyakorlatilag az objektum típusa, melyet a programozó definiál.
+A programozó határozza meg, hogy az osztály mit csinál: milyen változókat,
+adatokat tartalmaz, azokon milyen műveleteket lehet elvégezni.
+
+Definiálása:
+
+class Osztalyneve():
+	osztályváltozók
+	metódusok
+
+
+Pl.:
+class Konyvek():
+	cim=""
+	szerzo=""
+	isbn=""
+	darab=0
+
+	def filldata(self):
+		cim=input("Adja meg a címet!")
+		szerzo=input("Adja meg a szerzot!")
+
+
+Az osztály példánya gyakorlatilag az a változó melynek a 
+típusa az osztály.
+
+Szintaktika:
+példány=osztály(objektum)
+
+Pl.: konyv=Konyvek()
+
+Az osztályban definiált metódusokat a példányból hívhatom meg:
+a kötés mechanizmusa.
+
+
+NameError hibát kapunk, ha közvetlenül a metódust hívjuk meg.
+pl.: filldata()
+
+TypeError hibát kapunk, ha a metódust az osztályból hívom meg 
+nem pedig a példányból.
+Konyvek.filldata()
+
+A helyes, amikor a példányból hívom meg a metódust.
+konyv.filldata()
+
+self: olyan paraméter ami mindig a saját példányra mutat.
+A metódus definíciójakor adom meg. 
+
+
+
+__init__           konstruktor metódus (itt adom meg a kezdeti értékek beállítását)
+Amikor a példányt létrehozom, akkor fut le. Az __init__ konstruktort direkbe/közvetlenül nem hívjuk meg.
+
+
+def __init__(self):
+	self.konyvtarcime="Székesfehérvár, Bartók Béla tér 1."
+
+
+del_destructor metódus:
+A destruktor feladata a memóriaterületek felszabadítása. Pythonban - más programozási nyelvekkel ellentétben - ritkán használjuk. 
+
+
+Származtatás: Derivation
+Amikor az egyik osztály metódusait használni akarjuk egy másik osztályban, de az sokkal bővebb funkciókkal rendelkezik. 
+Ilyenkor nem irom meg újból azokat a metódusokat, hanem származtatom az egyik osztályt a másikból, azaz az első osztályból hozom
+létre a másodikat.  
+Akiből származtatunk az a szülőosztály, akit származtattunk az a gyerekosztály.
+
+A gyerekosztály a szülőosztály összes metódusát, összes tulajdonságát örökli.
+A gyerekosztály mindig bővebb, mert tartalmazza a szülőosztály összes metódusát + a saját metódusait.
+
+A szülőosztály példányából csak a szülőosztály metódusait tudom meghívni.
+A gyerekosztályból megtudom hívni a gyerekosztály metódusait és a szülőosztály metódusait is.
+
+
+Szintaktika:
+class Alosztaly_neve(Szuloosztaly):
+	osztalytörzs
+
+
+Példa:
+class Szuloosztaly():
+    def szuloosztaly_metodus(self):
+        return "Én vagyok a szuloosztály metódus\n"
+        
+class Gyerekosztaly(Szuloosztaly):
+    def gyerekosztaly_metodus(self):
+        return "Én vagyok a gyerekosztály metódus\n"
+    
+szulo=Szuloosztaly()
+gyerek=Gyerekosztaly()
+
+print(szulo.szuloosztaly_metodus())
+
+
+
