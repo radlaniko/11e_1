@@ -1,0 +1,13 @@
+from turtle import *
+import time
+
+def polygon(angleNum, length):
+    c_var=0
+    angle=360//angleNum
+    while(c_var<angleNum):
+        forward(length)
+        right(angle)
+        c_var+=1
+        time.sleep(0.5)
+    time.sleep(1)
+
