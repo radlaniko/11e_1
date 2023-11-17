@@ -1,0 +1,4 @@
+gamelist=["Mahjong","Minecraft","Fortnite","EAFC","COD","DOOM","Wolfenstein","Heroes 3","GTA 5"]
+
+for szo in gamelist:
+	print(szo)
