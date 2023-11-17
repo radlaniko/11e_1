@@ -1,0 +1,39 @@
+from turtle import *
+import time
+from fgv_polygon import *
+
+def move(lenght,direction):
+    up()
+    if (direction==1):
+        forward(length)
+    elif (direction==-1):
+        backward(350)
+    down()
+
+i, length, space=0, 50, 10
+move(400,-1)
+
+color("purple")
+polygon(3,length)
+up()
+forward(2*length)
+down()
+
+color("blue")
+polygon(4, length)
+up()
+forward(2 * length)
+down()
+
+color("black")
+polygon(5, length)
+up()
+forward(2 * length)
+down()
+
+color("red")
+polygon(6, length)
+up()
+forward(2 * length)
+down()
+
