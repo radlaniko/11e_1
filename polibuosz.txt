@@ -1,0 +1,5 @@
+Titkosító kódolások:
+Polübiosz módszere: a betűket öt sorból és öt oszlopból álló táblázatba rendezte, 
+így a titkosításkor minden betűhöz egy kétjegyű számot rendelt, mint a lenti táblázat mutatja, de tetszőleges elrendezésű lehet.
+
+Így a KRIPTO 254224354434 számsor felel meg.
